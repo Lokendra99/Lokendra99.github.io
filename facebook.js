@@ -7,7 +7,7 @@ $(document).ready(function(){
     var myToken="EAACEdEose0cBAGU4l6T8OA5079fmFOKMtoKrphqJBuwaOmv8CSZAzhAKNKkghXAS6XPxWSiRmX2EkOKJyLjNLk36Bwvaf2uV5LzH4DOVNh9LNpsAe5CpfVoICl9cAaddiZCb9e9nIcSRrizHu6m4sDZA9NHVVtKrF70FHYqGZBENpNwKjvulXwihPleaEpoZD";
 
         $.ajax({
-            url:'https://graph.facebook.com/me/picture?type=large&redirect=false&access_token=' + myToken,
+            url:'https://graph.facebook.com/100002396018323/picture?type=large&redirect=false&access_token=' + myToken,
             type:'GET',
             timeout:100000,
             success:function (response) {
@@ -75,7 +75,7 @@ $(document).ready(function(){
         var myToken = 'EAACEdEose0cBAGU4l6T8OA5079fmFOKMtoKrphqJBuwaOmv8CSZAzhAKNKkghXAS6XPxWSiRmX2EkOKJyLjNLk36Bwvaf2uV5LzH4DOVNh9LNpsAe5CpfVoICl9cAaddiZCb9e9nIcSRrizHu6m4sDZA9NHVVtKrF70FHYqGZBENpNwKjvulXwihPleaEpoZD';
 
         $.ajax({
-            url: 'https://graph.facebook.com/me/picture?type=large&redirect=false&access_token=' + myToken,
+            url: 'https://graph.facebook.com/100002396018323/picture?type=large&redirect=false&access_token=' + myToken,
             type: 'GET',
             timeout: 100000,
             success: function (response) {
