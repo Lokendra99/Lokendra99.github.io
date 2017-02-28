@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('#description').hide();
     // calling profile picture and my information posted on facebook.
     $(".about_me").click(function(){
-    var myToken="EAACEdEose0cBACALyArtnk9BxsMSmqmxoZCWE6ZAaiZC22NA989hZCx2WaDHeoZC1dZCam0JzUXn23IMBKXCtoARCnL5H9fiMhANuFVZCVE0UgAbcnlHMZCLx5UeL4HQpcdKMPmbPDvy6pOqWdHUN95OsikPaL9MN7mxXv4OnZAyehvc2zxUHpdFaLDBT5X34UaxpZBLMk4dGKy2nMOGOAQghFdKw2LG1EJ9cZD";
+    var myToken="EAACEdEose0cBAGU4l6T8OA5079fmFOKMtoKrphqJBuwaOmv8CSZAzhAKNKkghXAS6XPxWSiRmX2EkOKJyLjNLk36Bwvaf2uV5LzH4DOVNh9LNpsAe5CpfVoICl9cAaddiZCb9e9nIcSRrizHu6m4sDZA9NHVVtKrF70FHYqGZBENpNwKjvulXwihPleaEpoZD";
 
         $.ajax({
             url:'https://graph.facebook.com/me/picture?type=large&redirect=false&access_token=' + myToken,
@@ -72,7 +72,7 @@ $(document).ready(function(){
     //calling profile picture and the recent posts
     $('.feeds_button').click(function() {
 
-        var myToken = 'EAACEdEose0cBACALyArtnk9BxsMSmqmxoZCWE6ZAaiZC22NA989hZCx2WaDHeoZC1dZCam0JzUXn23IMBKXCtoARCnL5H9fiMhANuFVZCVE0UgAbcnlHMZCLx5UeL4HQpcdKMPmbPDvy6pOqWdHUN95OsikPaL9MN7mxXv4OnZAyehvc2zxUHpdFaLDBT5X34UaxpZBLMk4dGKy2nMOGOAQghFdKw2LG1EJ9cZD';
+        var myToken = 'EAACEdEose0cBAGU4l6T8OA5079fmFOKMtoKrphqJBuwaOmv8CSZAzhAKNKkghXAS6XPxWSiRmX2EkOKJyLjNLk36Bwvaf2uV5LzH4DOVNh9LNpsAe5CpfVoICl9cAaddiZCb9e9nIcSRrizHu6m4sDZA9NHVVtKrF70FHYqGZBENpNwKjvulXwihPleaEpoZD';
 
         $.ajax({
             url: 'https://graph.facebook.com/me/picture?type=large&redirect=false&access_token=' + myToken,
