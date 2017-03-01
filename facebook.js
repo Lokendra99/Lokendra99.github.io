@@ -4,10 +4,10 @@ $(document).ready(function(){
     $('#description').hide();
     // calling profile picture and my information posted on facebook.
     $(".about_me").click(function(){
-    var myToken="EAACEdEose0cBAGU4l6T8OA5079fmFOKMtoKrphqJBuwaOmv8CSZAzhAKNKkghXAS6XPxWSiRmX2EkOKJyLjNLk36Bwvaf2uV5LzH4DOVNh9LNpsAe5CpfVoICl9cAaddiZCb9e9nIcSRrizHu6m4sDZA9NHVVtKrF70FHYqGZBENpNwKjvulXwihPleaEpoZD";
+    var myToken="EAACEdEose0cBAMiLIZCIBTOwWGZCbHXAfXxww0AQLYwFjR9PuxbYa0ob6vpe2F4AG7ijbDblRVZC79Wo0IXiE8AgtW86Bix7WRhSssnCZCUiU5gF6vzJwHIA174cq7cz6rDdhyB1NLEz9TOWfMERHTD9FZBwWfdqTxByNImfREsFKZBRwC90ZBNlTQjuXZB9B1cZD";
 
         $.ajax({
-            url:'https://graph.facebook.com/100002396018323/picture?type=large&redirect=false&access_token=' + myToken,
+            url:'https://graph.facebook.com/100004597240420/picture?type=large&redirect=false&access_token=' + myToken,
             type:'GET',
             timeout:100000,
             success:function (response) {
@@ -72,10 +72,10 @@ $(document).ready(function(){
     //calling profile picture and the recent posts
     $('.feeds_button').click(function() {
 
-        var myToken = 'EAACEdEose0cBAGU4l6T8OA5079fmFOKMtoKrphqJBuwaOmv8CSZAzhAKNKkghXAS6XPxWSiRmX2EkOKJyLjNLk36Bwvaf2uV5LzH4DOVNh9LNpsAe5CpfVoICl9cAaddiZCb9e9nIcSRrizHu6m4sDZA9NHVVtKrF70FHYqGZBENpNwKjvulXwihPleaEpoZD';
+        var myToken = 'EAACEdEose0cBAMiLIZCIBTOwWGZCbHXAfXxww0AQLYwFjR9PuxbYa0ob6vpe2F4AG7ijbDblRVZC79Wo0IXiE8AgtW86Bix7WRhSssnCZCUiU5gF6vzJwHIA174cq7cz6rDdhyB1NLEz9TOWfMERHTD9FZBwWfdqTxByNImfREsFKZBRwC90ZBNlTQjuXZB9B1cZD';
 
         $.ajax({
-            url: 'https://graph.facebook.com/100002396018323/picture?type=large&redirect=false&access_token=' + myToken,
+            url: 'https://graph.facebook.com/100004597240420/picture?type=large&redirect=false&access_token=' + myToken,
             type: 'GET',
             timeout: 100000,
             success: function (response) {
